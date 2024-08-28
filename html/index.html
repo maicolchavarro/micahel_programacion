@@ -1,76 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agencia de viajes </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agencia de viajes</title>
+    <link rel="icon" type="image/x-icon" href="/imagenes/avion.png " />
     <style>
-        
-        header, section, nav, li, table {
-            position: relative;
-            z-index: 10;
-        }
-        
-        video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            opacity: 0.9;
-            z-index: 1;
-        }
+      header,section,nav,li,table {
+        position: relative;
+        z-index: 10;
+      }
+
+      video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.9;
+        z-index: 1;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Agencia de viajes</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#">Inicio de sesión</a></li>
-                <li><a href="#">Más información</a></li>
-            </ul>
-            
-        </nav>
+      <h1>Agencia de viajes</h1>
+      <nav>
+        <ul>
+          <li><a href="/html/contacto.html">Contacto</a></li>
+          <li><a href="/html/secion.html">Inicio de sesión</a></li>
+          <li><a href="/html/informacion.html">Más información</a></li>
+        </ul>
+      </nav>
     </header>
     <video src="/Video/video4.mp4" muted loop autoplay></video>
     <section>
-        <h1>¡Reserva Tu Aventura Ahora y Vive lo Inolvidable!</h1>
-        <ul>
-            <li><a href="/html/ofertas.html">Aquí podrás ver todos nuestros paquetes disponibles</a></li>
-        </ul>
-        <table border="0">
-            <tr>
-                <td>
-                    <h1>Embárcate en una Odisea Europea Inigualable!</h1>
-                    <p>Disfruta una odisea única a través de los tesoros de Europa con nuestros exclusivos paquetes de viaje. <br>
-                    Desde la elegancia de París hasta la majestuosidad de los Alpes suizos, cada destino te sumergirá en <br>
-                    una experiencia inolvidable.</p>
-                    <p>Conoce: <br> Francia, Suiza, Austria, Italia, España, Bélgica, Países Bajos, Alemania,<br> República Checa, Eslovaquia, Hungría, Inglaterra, Reino Unido.</p>
-                </td>
-                <td>
-                    ..............................................
-                </td>
-                <td>
-                    <h1>¡RESERVA AHORA!</h1>
-                    <h4>¡Tu viaje inolvidable comienza aquí!</h4>
-                    <label>Nombre:</label><br>
-                    <input type="text" name="Nombre"><br>
-                    <label for="">Apellidos:</label><br>
-                    <input type="text"name =Apellidos> <br>
-                    <label for="">celular:</label><br>
-                    <input type="text"name =celular> <br>
-                    <label for="">pais:</label><br>
-                    <input type="text"name =pais> <br><br>
-                      <button>Enviar</button>
-                </td>
-            </tr>
-        </table>
-        
+      <h1>¡Reserva Tu Aventura Ahora y Vive lo Inolvidable!</h1>
+      <ul>
+        <li>
+          <a href="/html/ofertas.html"
+            >Aquí podrás ver todos nuestros paquetes disponibles</a
+          >
+        </li>
+      </ul>
+      <table border="0">
+        <tr>
+          <td>
+            <h1>Embárcate en una Odisea Europea Inigualable!</h1>
+            <p>
+              Disfruta una odisea única a través de los tesoros de Europa con
+              nuestros exclusivos paquetes de viaje. <br />
+              Desde la elegancia de París hasta la majestuosidad de los Alpes
+              suizos, cada destino te sumergirá en <br />
+              una experiencia inolvidable.
+            </p>
+            <p>
+              Conoce: <br />
+              Francia, Suiza, Austria, Italia, España, Bélgica, Países Bajos,
+              Alemania,<br />
+              República Checa, Eslovaquia, Hungría, Inglaterra, Reino Unido.
+            </p>
+          </td>
+          <td>..............................................</td>
+          <td>
+            <h1>¡RESERVA AHORA!</h1>
+            <h4>¡Tu viaje inolvidable comienza aquí!</h4>
+
+            <label for="nombre">Nombre:</label><br />
+            <input type="text" id="nombre" name="Nombre" /><br />
+
+            <label for="apellidos">Apellidos:</label><br />
+            <input type="text" id="apellidos" name="Apellidos" /><br />
+
+            <label for="celular">Celular:</label><br />
+            <input type="text" id="celular" name="celular" /><br />
+
+            <label for="pais">Seleccione su país:</label><br />
+            <select id="pais" name="pais">
+              <option value="argentina">Argentina</option>
+              <option value="bolivia">Bolivia</option>
+              <option value="brasil">Brasil</option>
+              <option value="chile">Chile</option>
+              <option value="colombia">Colombia</option>
+              <option value="costa_rica">Costa Rica</option>
+              <option value="cuba">Cuba</option>
+              <option value="ecuador">Ecuador</option>
+              <option value="el_salvador">El Salvador</option>
+              <option value="guatemala">Guatemala</option>
+              <option value="honduras">Honduras</option>
+              <option value="mexico">México</option>
+              <option value="nicaragua">Nicaragua</option>
+              <option value="panama">Panamá</option>
+              <option value="paraguay">Paraguay</option>
+              <option value="peru">Perú</option>
+              <option value="republica_dominicana">República Dominicana</option>
+              <option value="uruguay">Uruguay</option>
+              <option value="venezuela">Venezuela</option>
+            </select>
+            <br /><br />
+
+            <button type="submit">Enviar</button>
+          </td>
+        </tr>
+      </table>
     </section>
-</body>
+  </body>
 </html>
-
-
