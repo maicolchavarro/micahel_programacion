@@ -16,7 +16,7 @@ header {
     align-items: center;
 }
 header .logo img {
-    width: 70px; /* Cambia el tamaño de la imagen */
+    width: 110px; /* Cambia el tamaño de la imagen */
     height: auto; /* Mantiene la proporción de la imagen */
 }
 
@@ -24,7 +24,7 @@ header .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 0px; /* Ajusta la posición horizontal */
+    margin-left: 10px; /* Ajusta la posición horizontal */
 }
 
 .container {
@@ -32,6 +32,11 @@ header .logo {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+ul li a {
+    color: white; /* Cambia el color de los enlaces a blanco */
+    text-decoration: none; /* Opcional: elimina el subrayado */
 }
 
 nav ul li {
