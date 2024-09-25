@@ -28,7 +28,6 @@ header .logo {
 }
 
 .container {
-    background: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +35,7 @@ header .logo {
 
 ul li a {
     color: white; /* Cambia el color de los enlaces a blanco */
-    text-decoration: none; /* Opcional: elimina el subrayado */
+    text-decoration: none; /*  elimina el subrayado */
 }
 
 nav ul li {
